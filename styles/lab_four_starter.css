@@ -1,0 +1,109 @@
+/* hero*/
+.hero-container {
+  background-color: #010101;
+  min-height: 600px;
+  max-width: 1500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-text {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  transform: translate(0.9%, -220%);
+  color: #f0f0f2;
+  background-size: cover;
+  position: absolute;
+}
+
+.content-container {
+  background-color: #151515;
+  padding-top: 10px;
+}
+
+/*content section*/
+.content-text {
+  text-align: right;
+  color: #dde8f1;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 5%;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.content-image {
+  display: flex;
+}
+
+/*the drop down accordian*/
+.button {
+  background-color: #acadb1;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #151810;
+  cursor: pointer;
+  padding-block: 30px;
+  width: 100%;
+  text-align: left;
+}
+.accordian {
+  display: flex;
+  flex-direction: column;
+}
+.button:hover {
+  background-color: #7d7d88;
+}
+
+.panel {
+  display: none;
+  padding: 20px;
+}
+.panel.active {
+  display: block;
+}
+
+/*footer section*/ 
+.footer-container {
+  background-color: #fefefe;
+  max-width: 1500px;
+  min-height: 200px;
+  position: relative;
+  padding: 15px;
+  display: flex;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  justify-content: center;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+/* media querys*/
+/*Mobile*/
+@media screen and (max-width: 500px) {
+  body {
+    width: 100%;
+   }
+  }  
+  
+  /*tablet*/
+  @media screen and (min-width: 500px) and (max-width: 1500px) {
+  body {
+      width: 100%;
+  }
+  }
+  
+  /*Desktop*/
+  @media screen and (min-width: 1500px) {
+      body {
+        width: 100%;
+      }
+  }
