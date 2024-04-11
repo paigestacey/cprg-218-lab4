@@ -6,14 +6,20 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: -10px;
+}
+
+.Webitect {
+  font-size: 50px;
 }
 
 .hero-text {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
+  font-size: x-larger;
   text-align: center;
-  transform: translate(0.9%, -220%);
+  transform: translate(0.9%, -160%);
   color: #f0f0f2;
   background-size: cover;
   position: absolute;
