@@ -17,9 +17,9 @@
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: x-larger;
+  font-size: 30px;
   text-align: center;
-  transform: translate(0.9%, -160%);
+  transform: translate(0.9%, -120%);
   color: #f0f0f2;
   background-size: cover;
   position: absolute;
@@ -50,14 +50,13 @@
 .button {
   background-color: #acadb1;
   font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
   font-style: normal;
   color: #151810;
   cursor: pointer;
-  padding-block: 30px;
   width: 100%;
-  text-align: left;
+  text-align: center;
 }
+
 .accordian {
   display: flex;
   flex-direction: column;
